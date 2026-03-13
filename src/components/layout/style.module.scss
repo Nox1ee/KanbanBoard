@@ -1,0 +1,14 @@
+.layout {
+  
+}
+
+.main {
+  background: #0079BF;
+  height: calc(100dvh - 55px * 2);
+
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
