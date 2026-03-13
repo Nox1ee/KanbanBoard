@@ -7,6 +7,7 @@ import { dataMock } from '../../data';
 import { ColumnData } from '../../types';
 import Board from '../board';
 
+
 function App() {
    const [tasks, setTasks] = useState<ColumnData[]>(() => {
     const saved = localStorage.getItem('tasks');
@@ -17,8 +18,10 @@ function App() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }, [tasks]);
 
+  const basename = process.env.NODE_ENV === 'production' ? '/KanbanBoard' : '/'; // Чтобы работала и на GHPages и локально
+
   return (
-    <BrowserRouter basename="/KanbanBoard">
+    <BrowserRouter basename={basename}>
       <Routes>
         <Route path="/" element={<Layout tasks={tasks} />}>
           <Route index element={<Board tasks={tasks} setTasks={setTasks} />} />
