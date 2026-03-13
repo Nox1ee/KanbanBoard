@@ -28,11 +28,12 @@ const Header = () => {
     }
   }, [isOpenDropDown])
 
+  const homeLink = process.env.NODE_ENV === 'production' ? '/KanbanBoard' : '/'; // Чтобы работала и на GHPages и локально
 
   return(
     <header className={s.header}>
       <div className={s.title}>
-        <h1><a href="/">Awesome Kanban Board</a></h1>
+        <h1><a href={homeLink}>Awesome Kanban Board</a></h1>
       </div>
 
       <div className={s.profile} onClick={handleProfile} ref={dropDownRef}>
