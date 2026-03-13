@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/KanbanBoard/static/css/main.d5a304b5.css",
+    "main.js": "/KanbanBoard/static/js/main.dc37b0e4.js",
+    "static/js/453.b7a3ca62.chunk.js": "/KanbanBoard/static/js/453.b7a3ca62.chunk.js",
+    "static/media/user-avatar.svg": "/KanbanBoard/static/media/user-avatar.8c75e22659ff0c8d0c51b327365a7432.svg",
+    "index.html": "/KanbanBoard/index.html",
+    "static/media/arrow-down.svg": "/KanbanBoard/static/media/arrow-down.499a81f7058420ec4c251b760054534d.svg",
+    "static/media/add-card.svg": "/KanbanBoard/static/media/add-card.c6cdbf7a59b54744b6528f29fcbc968a.svg",
+    "static/media/close.svg": "/KanbanBoard/static/media/close.9f962f9449e35cab3d83f618af14a7c4.svg",
+    "static/media/arrow-tasks.svg": "/KanbanBoard/static/media/arrow-tasks.cfd103a730c379c79f2a.svg",
+    "main.d5a304b5.css.map": "/KanbanBoard/static/css/main.d5a304b5.css.map",
+    "main.dc37b0e4.js.map": "/KanbanBoard/static/js/main.dc37b0e4.js.map",
+    "453.b7a3ca62.chunk.js.map": "/KanbanBoard/static/js/453.b7a3ca62.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5a304b5.css",
+    "static/js/main.dc37b0e4.js"
+  ]
+}
