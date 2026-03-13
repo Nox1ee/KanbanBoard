@@ -18,7 +18,7 @@ function App() {
   }, [tasks]);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/KanbanBoard">
       <Routes>
         <Route path="/" element={<Layout tasks={tasks} />}>
           <Route index element={<Board tasks={tasks} setTasks={setTasks} />} />
