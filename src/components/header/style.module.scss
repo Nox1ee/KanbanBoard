@@ -111,3 +111,16 @@
   background: white;
   transform: rotate(45deg);
 }
+
+@media (max-width: 575.99px) {
+  .header {
+    background: #0079BF;
+    justify-content: flex-end;
+
+    padding: 0 9px;
+  }
+
+  .title {
+    display: none;
+  }
+}

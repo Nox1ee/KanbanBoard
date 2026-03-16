@@ -17,3 +17,9 @@
   display: flex;
   gap: 36px;
 }
+
+@media (max-width: 575.99px) {
+  .footer {
+    display: none;
+  }
+}
