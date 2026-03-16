@@ -47,7 +47,7 @@ const Task = ({ tasks, setTasks }: BoardProps) => {
       <header className={s.header}>
         <h1 className={s.title}>{currentTask.name}</h1>
         <button className={s.closeBtn} onClick={() => navigate('/')}>
-          <img src={close} alt="" />
+          <img src={close} alt="close" />
         </button>
       </header>
       <div className={s.content}>

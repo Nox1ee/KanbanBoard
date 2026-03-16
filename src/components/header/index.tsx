@@ -37,8 +37,8 @@ const Header = () => {
       </div>
 
       <div className={s.profile} onClick={handleProfile} ref={dropDownRef}>
-        <img className={s.userAvatar} src={userAvatar} alt="" />
-        <img className={`${s.dropArrow} ${isOpenDropDown ? s.rotated : ''}`} src={arrowDown} alt="" />
+        <img className={s.userAvatar} src={userAvatar} alt="user-avatar" />
+        <img className={`${s.dropArrow} ${isOpenDropDown ? s.rotated : ''}`} src={arrowDown} alt="arrow" />
         <div className={`${s.dropDownMenu} ${isOpenDropDown ? s.opened : s.closed}`}>
           <div className={s.arrow}></div>
           <ul className={s.dropDownList}>

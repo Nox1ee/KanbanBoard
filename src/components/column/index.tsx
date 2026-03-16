@@ -108,7 +108,7 @@ const Column = ({ title, tasks = [], onAddTask, prevTasks, onMoveTask }: ColumnP
         onClick={handleClick}
         disabled={(title !== 'Backlog' && prevTasks.length === 0) || (isFormOpen && title === 'Backlog' && !inputValue.trim())}
       >
-        {(!isFormOpen || title !== 'Backlog') && <img src={addCard} alt="" />}
+        {(!isFormOpen || title !== 'Backlog') && <img src={addCard} alt="add-card" />}
         {isFormOpen && title === 'Backlog' ? 'Submit' : 'Add card'}
       </button>
     </div>
