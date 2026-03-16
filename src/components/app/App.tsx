@@ -18,7 +18,7 @@ function App() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }, [tasks]);
 
-  const basename = process.env.NODE_ENV === 'production' ? '/KanbanBoard' : '/'; // Чтобы работала и на GHPages и локально
+  const basename = process.env.PUBLIC_URL || '/'; // Чтобы работала и на GHPages и локально
 
   return (
     <BrowserRouter basename={basename}>
