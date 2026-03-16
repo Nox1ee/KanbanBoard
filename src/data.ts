@@ -9,7 +9,25 @@ export const dataMock = [
 ]
 
 export const SELECT_STYLE: StylesConfig<TaskOption, false> = {
-  container: (base) => ({ ...base, width: '100%' }),
-  control: (base) => ({ ...base, borderRadius: '5px' }),
-  menu: (base) => ({ ...base, width: '100%' })
+  container: (base) => ({ 
+    ...base, 
+    width: '100%',
+    marginBottom: '5px'
+  }),
+  control: (base, state) => ({ 
+    ...base, 
+    borderRadius: '5px',
+    boxShadow: state.isFocused ? '0 0 0 1px #0079BF' : 'none', 
+    backgroundColor: '#FFFFFF',
+    cursor: 'pointer',
+  }),
+  option: (base, state) => ({
+    ...base,
+    fontSize: '18px',
+    cursor: 'pointer',
+  }),
+  menu: (base) => ({ ...base, width: '100%' }),
+  indicatorSeparator: () => ({
+    display: 'none',
+  }),
 }

@@ -49,10 +49,23 @@
 
   background: #0079BF;
   color: #FFF;
+
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.02);
+    background: #0089d8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
 }
 
 .saveBtn {
-  background:  #3b8f53;
+  background: #5AAC44;
+
+  &:hover {
+    background: #61BD4F;
+    box-shadow: 0 4px 12px rgba(90, 172, 68, 0.3);
+  }
 }
 
 .content {
