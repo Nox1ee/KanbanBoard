@@ -95,3 +95,9 @@
   word-wrap: break-word;
   overflow-wrap: break-word;
 }
+
+@media (max-width: 575.99px) {
+  .wrapper {
+    min-height: 500px;
+  }
+}

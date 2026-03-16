@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './App.css';
+import './App.scss';
 import Layout from '../layout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Task from '../task';
